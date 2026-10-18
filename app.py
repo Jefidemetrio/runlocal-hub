@@ -5,7 +5,7 @@ import urllib.parse
 import os
 
 PORT = 8000
-DB_PATH = "/opt/data/ecosystem/portal/portal_corrida.db"
+DB_PATH = "portal_corrida.db"
 
 def init_db():
     conn = sqlite3.connect(DB_PATH)
